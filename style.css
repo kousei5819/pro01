@@ -1,8 +1,15 @@
 @charset "UTF-8";
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 h1 {
   text-align: center;
   font-family: 'M PLUS 1p', sans-serif;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 #gallery {
@@ -49,4 +56,13 @@ footer {
 .leaflet-popup-tip {
   background: #000;
   color: #FFF;
+}
+
+.copyright {
+  background-color: #707070;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 1.5em;
+  font-size: .9rem;
+  padding: 20px;
 }
